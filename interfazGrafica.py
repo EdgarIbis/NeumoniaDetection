@@ -4,9 +4,7 @@ Created on Sun Jan 24 20:24:58 2021
 
 @author: edgar
 
-Interfaz grafica para detectar neumonia y proporcionar la probabilidad de tener
-neumonia mediante teorema de Bayes una vez que el sistema detecto que la radio-
-grafia contiene neumonia.
+Interfaz grafica para detectar neumonia en radiografías de rayos-X
 """
 
 import os
