@@ -16,7 +16,9 @@ El programa principal tiene el nombre de Interfaz Gráfica, solo se debe ejecuta
 
 El sistema aplica k-NN ponderado tradicional utilizando como prototipos los generados en la etapa de entrenamiento. Si la etiqueta predicha es normal, se despliega este resultado en la ventana de interfaz. Por el contrario, si la etiqueta estimada es presencia de neumonía se realiza un cálculo de probabilidad de neumonía tomando en cuenta la votación que arrojó cada clase:
 
-$$P = \frac{v1}{V0+v1} * 1000$$
+$$
+P = \frac{v1}{v0+v1} * 1000
+$$
 
 donde v1 representa la votación de la clase neumonía y v0 es el valor de la votación de la clase normal. De esta manera, se obtendrán valores de probabilidad mayores a 50 que
 dependen de los vecinos que rodean a la muestra a clasificar.
