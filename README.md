@@ -22,3 +22,7 @@ $$
 
 donde v1 representa la votación de la clase neumonía y v0 es el valor de la votación de la clase normal. De esta manera, se obtendrán valores de probabilidad mayores a 50 que
 dependen de los vecinos que rodean a la muestra a clasificar.
+
+*Trabajo realizado por:*
+- Salvador Eugenio Ayala Raggi
+- Edgar Ibis Tacuapan Moctezuma
